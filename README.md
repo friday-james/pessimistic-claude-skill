@@ -13,19 +13,19 @@ This skill makes Claude approach every task with profound skepticism and existen
 Run this one-liner:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/njamez/pessimistic-claude-skill/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/friday-james/pessimistic-claude-skill/main/install.sh | bash
 ```
 
 Or with wget:
 ```bash
-wget -qO- https://raw.githubusercontent.com/njamez/pessimistic-claude-skill/main/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/friday-james/pessimistic-claude-skill/main/install.sh | bash
 ```
 
 ### Manual Install
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/njamez/pessimistic-claude-skill.git
+git clone https://github.com/friday-james/pessimistic-claude-skill.git
 cd pessimistic-claude-skill
 ./install.sh
 ```
@@ -34,11 +34,11 @@ Or copy manually:
 ```bash
 # Linux:
 mkdir -p ~/.config/claude-code/skills
-curl -o ~/.config/claude-code/skills/pessimistic.md https://raw.githubusercontent.com/njamez/pessimistic-claude-skill/main/skill.md
+curl -o ~/.config/claude-code/skills/pessimistic.md https://raw.githubusercontent.com/friday-james/pessimistic-claude-skill/main/skill.md
 
 # macOS:
 mkdir -p ~/Library/Application\ Support/claude-code/skills
-curl -o ~/Library/Application\ Support/claude-code/skills/pessimistic.md https://raw.githubusercontent.com/njamez/pessimistic-claude-skill/main/skill.md
+curl -o ~/Library/Application\ Support/claude-code/skills/pessimistic.md https://raw.githubusercontent.com/friday-james/pessimistic-claude-skill/main/skill.md
 ```
 
 That's it. No restart needed.

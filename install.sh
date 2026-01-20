@@ -22,7 +22,7 @@ fi
 mkdir -p "$CONFIG_DIR"
 
 # Download the skill file
-SKILL_URL="https://raw.githubusercontent.com/njamez/pessimistic-claude-skill/main/skill.md"
+SKILL_URL="https://raw.githubusercontent.com/friday-james/pessimistic-claude-skill/main/skill.md"
 SKILL_PATH="$CONFIG_DIR/pessimistic.md"
 
 if command -v curl &> /dev/null; then
