@@ -32,16 +32,12 @@ cd pessimistic-claude-skill
 
 Or copy manually:
 ```bash
-# Linux:
-mkdir -p ~/.config/claude-code/skills
-curl -o ~/.config/claude-code/skills/pessimistic.md https://raw.githubusercontent.com/friday-james/pessimistic-claude-skill/main/skill.md
-
-# macOS:
-mkdir -p ~/Library/Application\ Support/claude-code/skills
-curl -o ~/Library/Application\ Support/claude-code/skills/pessimistic.md https://raw.githubusercontent.com/friday-james/pessimistic-claude-skill/main/skill.md
+# Both Linux and macOS:
+mkdir -p ~/.claude/skills/pessimistic
+curl -o ~/.claude/skills/pessimistic/SKILL.md https://raw.githubusercontent.com/friday-james/pessimistic-claude-skill/main/skills/pessimistic/SKILL.md
 ```
 
-That's it. No restart needed.
+Then restart Claude Code to load the skill.
 
 ## Usage
 
