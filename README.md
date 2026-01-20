@@ -21,20 +21,23 @@ Or with wget:
 wget -qO- https://raw.githubusercontent.com/friday-james/pessimistic-claude-skill/main/install.sh | bash
 ```
 
+**Note:** If the quick install doesn't work immediately after a repo update, GitHub's CDN may still be caching the old version. Wait a few minutes or use the manual install below.
+
 ### Manual Install
 
-1. Clone this repository:
-```bash
-git clone https://github.com/friday-james/pessimistic-claude-skill.git
-cd pessimistic-claude-skill
-./install.sh
-```
-
-Or copy manually:
+Copy the skill file directly:
 ```bash
 # Both Linux and macOS:
 mkdir -p ~/.claude/skills/pessimistic
 curl -o ~/.claude/skills/pessimistic/SKILL.md https://raw.githubusercontent.com/friday-james/pessimistic-claude-skill/main/skills/pessimistic/SKILL.md
+```
+
+Or clone the repository:
+```bash
+git clone https://github.com/friday-james/pessimistic-claude-skill.git
+cd pessimistic-claude-skill
+mkdir -p ~/.claude/skills/pessimistic
+cp skills/pessimistic/SKILL.md ~/.claude/skills/pessimistic/
 ```
 
 Then restart Claude Code to load the skill.
