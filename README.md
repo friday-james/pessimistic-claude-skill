@@ -84,6 +84,16 @@ Once activated, Claude will:
 - Entertainment value
 - Actually helpful for thinking about edge cases and failure modes
 
+## Uninstall
+
+If the relentless pessimism becomes too much (we told you it would), remove the skill:
+
+```bash
+rm -rf ~/.claude/skills/pessimistic/
+```
+
+Then restart Claude Code. The darkness will lift. Or will it?
+
 ## Contributing
 
 Feel free to submit PRs to make this skill even more miserable. Not that it'll make a difference in the grand scheme of things, but why not?
