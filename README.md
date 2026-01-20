@@ -8,22 +8,40 @@ This skill makes Claude approach every task with profound skepticism and existen
 
 ## Installation
 
+### Quick Install (Recommended)
+
+Run this one-liner:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/njamez/pessimistic-claude-skill/main/install.sh | bash
+```
+
+Or with wget:
+```bash
+wget -qO- https://raw.githubusercontent.com/njamez/pessimistic-claude-skill/main/install.sh | bash
+```
+
+### Manual Install
+
 1. Clone this repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/pessimistic-claude-skill.git
+git clone https://github.com/njamez/pessimistic-claude-skill.git
+cd pessimistic-claude-skill
+./install.sh
 ```
 
-2. Copy or symlink the `skill.md` file to your Claude Code skills directory:
+Or copy manually:
 ```bash
-# On Linux/Mac:
+# Linux:
 mkdir -p ~/.config/claude-code/skills
-cp skill.md ~/.config/claude-code/skills/pessimistic.md
+curl -o ~/.config/claude-code/skills/pessimistic.md https://raw.githubusercontent.com/njamez/pessimistic-claude-skill/main/skill.md
 
-# Or create a symlink:
-ln -s "$(pwd)/skill.md" ~/.config/claude-code/skills/pessimistic.md
+# macOS:
+mkdir -p ~/Library/Application\ Support/claude-code/skills
+curl -o ~/Library/Application\ Support/claude-code/skills/pessimistic.md https://raw.githubusercontent.com/njamez/pessimistic-claude-skill/main/skill.md
 ```
 
-3. Restart Claude Code or reload skills
+That's it. No restart needed.
 
 ## Usage
 
